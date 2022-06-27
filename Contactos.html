@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TravelSafe</title>
+    <link rel="stylesheet" href="csscont.css">
+</head> 
+
+<body>
+    <header><nav>
+        <d class="S">TravelSafe</d>
+        <a href="WebSite.html">HOME</a>
+        <a href="Sobre.html">SOBRE</a>
+        <a href="Sobre.html">SERVIÇOS</a>
+    </header></nav>
+    
+    <h3>CONTACTE-NOS</h3>
+    <br>
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">Primeiro Nome</label>
+        <input type="text" id="fname" name="firstname" placeholder="Primeiro Nome..">
+    
+        <label for="lname">Ultimo Nome</label>
+        <input type="text" id="lname" name="lastname" placeholder="Ultimo Nome..">
+    
+        <label for="country">País</label>
+        <select id="country" name="country">
+          <option value="Portugal">Portugal</option>
+          <option value="Brasil">Brasil</option>
+          <option value="Inglaterra">Inglaterra</option>
+        </select>
+    
+        <label for="subject">Submeter</label>
+        <textarea id="subject" name="subject" placeholder="Escreve a tua duvida ou opinião.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submeter" onclick="alert('Obrigado Pelo Sue Comentário!')">
+      </form>
+    </div>
